@@ -5,6 +5,7 @@ public class AsciiValue  {
         Scanner sc=new Scanner(System.in);
         char ch =sc.next().charAt(0);
         int ascii =(int)ch;
+        sc.close();
         System.out.println("charecters "+ch+ " is converted into "+ascii);
         
     }

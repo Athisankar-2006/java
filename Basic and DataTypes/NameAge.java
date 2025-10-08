@@ -8,6 +8,7 @@ public class NameAge {
         String name = sc.nextLine();
         System.out.println("Enter your Age:");
         int age = sc.nextInt();
+        sc.close();
         System.out.println("Hellow "+name+" you are "+age+" years old");
 
         

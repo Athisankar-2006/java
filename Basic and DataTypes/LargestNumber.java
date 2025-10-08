@@ -6,6 +6,7 @@ public class LargestNumber {
         System.out.println("Enter the three number :");
         int a=sc.nextInt(),b=sc.nextInt(),c=sc.nextInt();
         int max=(a>b && a>c)?a:(b>c?b:c);
+        sc.close();
         System.out.println("max number is :" + max);
     }
     

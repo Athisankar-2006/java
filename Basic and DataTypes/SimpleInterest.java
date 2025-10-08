@@ -7,8 +7,9 @@ public class SimpleInterest {
         double p=sc.nextDouble();
         System.out.println("enter the rate :");
         double r=sc.nextDouble();
-         System.out.println("enter the time :");
+        System.out.println("enter the time :");
         double t=sc.nextDouble();
+        sc.close();
         double si=(p*r*t)/100;
         System.out.println("simple interest is "+si);
     }

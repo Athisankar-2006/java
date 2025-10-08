@@ -5,6 +5,7 @@ public class EvenOdd {
         Scanner sc= new Scanner(System.in);
         System.out.println("Enter a number: ");
         int a=sc.nextInt();
+        sc.close();
         System.out.println(a%2==0 ? "Even":"odd");
     }
     

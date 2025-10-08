@@ -7,6 +7,7 @@ public class Calculator {
         Double a=sc.nextDouble(),b=sc.nextDouble();
         System.out.println("Enter the operator:('+','-','*','/')");
         char op=sc.next().charAt(0);
+        sc.close();
 
         switch (op) {
             case '+':

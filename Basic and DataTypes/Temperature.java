@@ -6,6 +6,7 @@ public class Temperature {
         System.out.println("Enter the celsius :");
         double c=sc.nextDouble();
         double f=(c*9/5)+32;
+        sc.close();
         System.out.println("Temperature in Fahrenheit = " + f);
     }
     

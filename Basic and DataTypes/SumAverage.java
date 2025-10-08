@@ -10,6 +10,7 @@ public class SumAverage {
             System.out.println("Enter number "+ i + " :");
             sum+=sc.nextDouble();
         }
+        sc.close();
          System.out.println("sum of all number is "+sum);
          System.out.println("average of all number is "+ sum/n);
     }

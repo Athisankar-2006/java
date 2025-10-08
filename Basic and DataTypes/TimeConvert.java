@@ -8,6 +8,7 @@ public class TimeConvert {
         int h=total/3600;
         int m= (total%3600)/60;
         int s=total%60;
+        sc.close();
         System.out.println(h+"hours ,"+m +" minutes, "+s+" seconds");
     }
     
